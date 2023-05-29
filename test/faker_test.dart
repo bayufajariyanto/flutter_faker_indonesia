@@ -9,6 +9,7 @@ void main() {
   // print({"nama akhir": faker.personal.namaAkhir()});
   // print({"nama lengkap": faker.personal.namaLengkap(length: 2)});
   // print({"jenis kelamin": faker.personal.jenisKelamin(child: false)});
-  print({"gelar depan": faker.personal.gelarDepan()});
-  print({"gelar belakang": faker.personal.gelarBelakang()});
+  // print({"gelar depan": faker.personal.gelarDepan()});
+  // print({"gelar belakang": faker.personal.gelarBelakang()});
+  // print({"jabatan": faker.pekerjaan.jabatan()});
 }

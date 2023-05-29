@@ -6,3 +6,7 @@
 ## 0.0.6
 ## 0.0.7
 Add generate person's name
+## 0.0.7+1
+Added generate academic degree
+## 0.0.7+2
+Update Readme
