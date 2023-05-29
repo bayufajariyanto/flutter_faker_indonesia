@@ -3,10 +3,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_faker_indonesia/flutter_faker_indonesia.dart';
 
 void main() {
-  test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
-  });
+  Faker faker = Faker.generate();
+  print({"nama awal": faker.personal.namaAwal()});
+  print({"nama akhir": faker.personal.namaAkhir()});
+  print({"nama lengkap": faker.personal.namaLengkap(length: 1)});
 }

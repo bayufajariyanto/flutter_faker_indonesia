@@ -1,7 +1,18 @@
 library flutter_faker_indonesia;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+import 'package:flutter_faker_indonesia/src/helpers/Pekerjaan.dart';
+import 'package:flutter_faker_indonesia/src/helpers/Personal.dart';
+
+// void main() {
+//   // Pekerjaan pekerjaan = new Pekerjaan();
+//   // print(pekerjaan.jabatan());
+// }
+
+class Faker {
+  final Pekerjaan pekerjaan;
+  final Personal personal;
+
+  Faker.generate()
+      : pekerjaan = Pekerjaan(),
+        personal = Personal();
 }
