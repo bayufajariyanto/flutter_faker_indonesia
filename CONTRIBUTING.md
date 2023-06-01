@@ -52,6 +52,8 @@ We appreciate your time and effort in contributing to Flutter Faker Indonesia. T
 If you have any questions or need further assistance, you can reach out to us via email or social media:
 
 - Email: bayuf08@gmail.com
+
+
 [coc]: https://github.com/bayufajariyanto/flutter_faker_indonesia/blob/main/CODE_OF_CONDUCT.md
 [dart_style_guide]: https://dart.dev/guides/language/effective-dart/style
 [flutter_style_guide]: https://flutter.dev/docs/development/code-style
