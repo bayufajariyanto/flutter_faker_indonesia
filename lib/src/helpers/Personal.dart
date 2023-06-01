@@ -1,5 +1,4 @@
-import 'dart:convert';
-import 'dart:math';
+// ignore_for_file: file_names
 
 import 'package:flutter_faker_indonesia/src/data/personal/gelar.dart';
 import 'package:flutter_faker_indonesia/src/data/personal/nama.dart';
@@ -28,7 +27,6 @@ class Personal {
   }
 
   jenisKelamin({bool child = false}) {
-    final randomBoolean = Random().nextBool();
     List gender = ["Pria", "Wanita"];
     List genderChild = ["Laki-laki", "Perempuan"];
     String result = "";

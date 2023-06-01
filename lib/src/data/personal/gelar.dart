@@ -1,4 +1,40 @@
 const listGelarBelakang = [
+  // Ahli Madya (D3)
+  {
+    "singkatan": "A.Md.Akun.",
+    "label_id": "Ahli Madya Akuntansi",
+    "label_en": "Associate of Accounting"
+  },
+  {
+    "singkatan": "A.Md.A.A.",
+    "label_id": "Ahli Madya Asuransi dan Aktuaria",
+    "label_en": "Associate of Insurance and Actuarial Associate"
+  },
+  {
+    "singkatan": "A.Md.A.K.",
+    "label_id": "Ahli Madya Analisis Kesehatan",
+    "label_en": "Associate of Health Analysis"
+  },
+  {
+    "singkatan": "A.Md.Pel.",
+    "label_id": "Ahli Madya Pelayaran",
+    "label_en": "Associate of Sailing"
+  },
+  {
+    "singkatan": "A.Md.Kom.",
+    "label_id": "Ahli Madya Komputer",
+    "label_en": "Associate of Computer"
+  },
+  {
+    "singkatan": "A.Md.Far.",
+    "label_id": "Ahli Madya Farmasi",
+    "label_en": "Associate of Pharmacy"
+  },
+  {
+    "singkatan": "A.Md.G.",
+    "label_id": "Ahli Madya Gizi",
+    "label_en": "Associate of Nutritionist"
+  },
   // Sarjana (S1)
   {
     "singkatan": "S.Si.",
@@ -498,26 +534,26 @@ const listGelarBelakang = [
     "label_en": "Master of Greek Literature"
   },
   // Doktor
-  {
-    "singkatan": "Dr.S.",
-    "label_id": "Doktor Sains",
-    "label_en": "Doctor of Science"
-  },
-  {
-    "singkatan": "Dr.T.",
-    "label_id": "Doktor Teknik",
-    "label_en": "Doctor of Science"
-  },
-  {
-    "singkatan": "Dr.H.",
-    "label_id": "Doktor Hukum",
-    "label_en": "Doctor of Laws"
-  },
-  {
-    "singkatan": "Dr.E.",
-    "label_id": "Doktor Ekonomi",
-    "label_en": "Doctor of Economics"
-  },
+  // {
+  //   "singkatan": "Dr.S.",
+  //   "label_id": "Doktor Sains",
+  //   "label_en": "Doctor of Science"
+  // },
+  // {
+  //   "singkatan": "Dr.T.",
+  //   "label_id": "Doktor Teknik",
+  //   "label_en": "Doctor of Science"
+  // },
+  // {
+  //   "singkatan": "Dr.H.",
+  //   "label_id": "Doktor Hukum",
+  //   "label_en": "Doctor of Laws"
+  // },
+  // {
+  //   "singkatan": "Dr.E.",
+  //   "label_id": "Doktor Ekonomi",
+  //   "label_en": "Doctor of Economics"
+  // },
 ];
 
 const listGelarDepan = [
