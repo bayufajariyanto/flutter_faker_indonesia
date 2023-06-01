@@ -11,10 +11,10 @@ dependencies:
 
 Use an easy implementation like this
 ```dart
-import 'package:faker/faker.dart';
+import 'package:flutter_faker_indonesia/faker.dart';
 
 main() {
-  var faker = new Faker();
+  var faker = new Faker().generate();
 
   faker.personal.namaLengkap(length: 2);
   /// Vania Mariska

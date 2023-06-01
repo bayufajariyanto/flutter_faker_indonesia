@@ -6,7 +6,7 @@ description:
   It also supports a variety of generators, such as name generators, address generators, and phone number generators.
   Faker is easy to use. Simply import the package and call the generate() method.
   Faker is fast. It can generate large amounts of data quickly.
-version: 0.0.8
+version: 0.0.8+1
 homepage: https://github.com/bayufajariyanto/flutter_faker_indonesia
 
 environment:
