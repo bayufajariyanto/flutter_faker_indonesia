@@ -1,4 +1,4 @@
-// ignore_for_file: file_names
+/// ignore_for_file: file_names
 
 import 'package:flutter_faker_indonesia/src/data/personal/gelar.dart';
 import 'package:flutter_faker_indonesia/src/data/personal/nama.dart';
@@ -38,14 +38,14 @@ class Personal {
     return result;
   }
 
-  gelarDepan({bool? is_boy, bool singkatan = true}) {
+  gelarDepan({bool? isBoy, bool singkatan = true}) {
     var temp = generator.index(listGelarDepan);
     Map object;
-    bool getPriaAndMatch = is_boy != null &&
-        is_boy &&
+    bool getPriaAndMatch = isBoy != null &&
+        isBoy &&
         (temp["sex"] == "pria" || temp["sex"] == null);
-    bool getWanitaAndMatch = is_boy != null &&
-        is_boy &&
+    bool getWanitaAndMatch = isBoy != null &&
+        isBoy &&
         (temp["sex"] == "pria" || temp["sex"] == null);
 
     if (getPriaAndMatch) {
@@ -53,19 +53,19 @@ class Personal {
     } else if (getWanitaAndMatch) {
       object = temp;
     } else {
-      // Jika is_boy null langsung return
-      if (is_boy == null) {
+      /// Jika isBoy null langsung return
+      if (isBoy == null) {
         object = temp;
-      } else if (is_boy) {
-        // Cari sampai dapat pria
+      } else if (isBoy) {
+        /// Cari sampai dapat pria
         do {
           object = generator.index(listGelarDepan);
-        } while ((is_boy && temp["sex"] == "pria"));
+        } while ((isBoy && temp["sex"] == "pria"));
       } else {
-        // Cari sampai dapat wanita
+        /// Cari sampai dapat wanita
         do {
           object = generator.index(listGelarDepan);
-        } while ((is_boy && temp["sex"] == "wanita"));
+        } while ((isBoy && temp["sex"] == "wanita"));
       }
     }
 

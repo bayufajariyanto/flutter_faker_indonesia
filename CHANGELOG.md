@@ -9,7 +9,6 @@ Add generate person's name
 ## 0.0.7+1
 Added generate academic degree
 ## 0.0.7+2
-Update Readme
 ## 0.0.8
 | Type | Title | Description |
 |---|---|---|
@@ -19,4 +18,4 @@ Update Readme
 | Changed | gelar.dart | Added data of Associate degree |
 | Fixed | Remove unused import ||
 ## 0.0.8+1
-Update README.md
+## 0.0.8+2

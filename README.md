@@ -1,7 +1,5 @@
 ## Usage
 
-Here is an example of how you could add a section to your README that shows how to use your package:
-
 Import the dependencies in `pubspec.yaml`
 
 ```yaml
@@ -30,7 +28,7 @@ Functions in this class:
 - namaAkhir()
 - gelarDepan()
   - `bool singkatan = true` (optional) Ex: `singkatan = true` -> "H.", but if `singkatan = false` -> "Haji"
-  - `bool is_boy` (optional) Ex: `is_boy = true` -> "H.", but if `is_boy = false` -> "Hj."
+  - `bool isBoy` (optional) Ex: `isBoy = true` -> "H.", but if `isBoy = false` -> "Hj."
 - gelarBelakang()
   - `bool singkatan = true` (optional) Ex: `singkatan = true` -> "S.H.", but if `singkatan = false` -> "Sarjana Hukum"
   - `int length = 1` (optional) The number of words

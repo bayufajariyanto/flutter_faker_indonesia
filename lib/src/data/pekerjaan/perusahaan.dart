@@ -14,31 +14,36 @@ const listNamaPerusahaan = [
     "perusahaan": "Suparma",
     "nama_belakang": "Tbk.",
   },
-  // Float Labs
+
+  /// Float Labs
   {
     "nama_depan": null,
     "perusahaan": "Float Labs Indonesia",
     "nama_belakang": null,
   },
-  // BNT
+
+  /// BNT
   {
     "nama_depan": "PT",
     "perusahaan": "Binakarya Nasional Terbuka",
     "nama_belakang": null,
   },
-  // Yoayo
+
+  /// Yoayo
   {
     "nama_depan": "PT",
     "perusahaan": "Yoayo Ayo Indonesia",
     "nama_belakang": null,
   },
-  // Hayyu Clinic Syar'i
+
+  /// Hayyu Clinic Syar'i
   {
     "nama_depan": "PT",
     "perusahaan": "Ruvi Rizqy Berkah",
     "nama_belakang": null,
   },
-  // Humanis
+
+  /// Humanis
   {
     "nama_depan": "PT",
     "perusahaan": "Powerman Indonesia",
@@ -50,8 +55,8 @@ const listNamaPerusahaan = [
     "nama_belakang": null,
   },
 
-  // Perusahaan Teknologi
-  // GoJek
+  /// Perusahaan Teknologi
+  /// GoJek
   {
     "nama_depan": "PT",
     "perusahaan": "GoTo Gojek Tokopedia",
@@ -62,7 +67,8 @@ const listNamaPerusahaan = [
     "perusahaan": "Tokopedia",
     "nama_belakang": null,
   },
-  // Ruangguru
+
+  /// Ruangguru
   {
     "nama_depan": "PT",
     "perusahaan": "Ruang Raya Indonesia",
@@ -73,37 +79,43 @@ const listNamaPerusahaan = [
     "perusahaan": "SiCepat Ekspres",
     "nama_belakang": null,
   },
-  // J&T
+
+  /// J&T
   {
     "nama_depan": "PT",
     "perusahaan": "Global Jet Express",
     "nama_belakang": null,
   },
-  // Zenius Edukasi Nusantara
+
+  /// Zenius Edukasi Nusantara
   {
     "nama_depan": "PT",
     "perusahaan": "Zona Edukasi Nusantara",
     "nama_belakang": null,
   },
-  // Shipper
+
+  /// Shipper
   {
     "nama_depan": "PT",
     "perusahaan": "Shippindo Teknologi Logistik",
     "nama_belakang": null,
   },
-  // Halodoc
+
+  /// Halodoc
   {
     "nama_depan": "PT",
     "perusahaan": "Media Dokter Investama",
     "nama_belakang": null,
   },
-  // Xendit
+
+  /// Xendit
   {
     "nama_depan": "PT",
     "perusahaan": "Sinar Digital Terdepan",
     "nama_belakang": null,
   },
-  // Blibli
+
+  /// Blibli
   {
     "nama_depan": "PT",
     "perusahaan": "Global Digital Niaga",
@@ -119,31 +131,36 @@ const listNamaPerusahaan = [
     "perusahaan": "Midtrans",
     "nama_belakang": null,
   },
-  // GoPay
+
+  /// GoPay
   {
     "nama_depan": "PT",
     "perusahaan": "Dompet Anak Bangsa",
     "nama_belakang": null,
   },
-  // Moka POS
+
+  /// Moka POS
   {
     "nama_depan": "PT",
     "perusahaan": "Moka Teknologi Indonesia",
     "nama_belakang": null,
   },
-  // Ajaib
+
+  /// Ajaib
   {
     "nama_depan": "PT",
     "perusahaan": "Ajaib Sekuritas Asia",
     "nama_belakang": null,
   },
-  // Ajaib
+
+  /// Ajaib
   {
     "nama_depan": "PT",
     "perusahaan": "Takjub Teknologi Indonesia",
     "nama_belakang": null,
   },
-  // Sayurbox
+
+  /// Sayurbox
   {
     "nama_depan": "PT",
     "perusahaan": "Kreasi Nostra Mandiri",
@@ -154,9 +171,10 @@ const listNamaPerusahaan = [
     "perusahaan": "Feedloop Global Teknologi",
     "nama_belakang": null,
   },
-  // Akhir Perusahaan Teknologi
 
-  // Perusahaan BUMN
+  /// Akhir Perusahaan Teknologi
+
+  /// Perusahaan BUMN
   {
     "nama_depan": "PT",
     "perusahaan": "Pertamina",
@@ -632,7 +650,8 @@ const listNamaPerusahaan = [
     "perusahaan": "Semen Kupang",
     "nama_belakang": "(Persero)",
   },
-  // Akhir Perusahaan BUMN
+
+  /// Akhir Perusahaan BUMN
 ];
 
 const listNamaDepanPerusahaan = [

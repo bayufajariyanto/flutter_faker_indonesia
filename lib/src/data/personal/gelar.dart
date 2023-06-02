@@ -1,5 +1,5 @@
 const listGelarBelakang = [
-  // Ahli Madya (D3)
+  /// Ahli Madya (D3)
   {
     "singkatan": "A.Md.Akun.",
     "label_id": "Ahli Madya Akuntansi",
@@ -35,7 +35,8 @@ const listGelarBelakang = [
     "label_id": "Ahli Madya Gizi",
     "label_en": "Associate of Nutritionist"
   },
-  // Sarjana (S1)
+
+  /// Sarjana (S1)
   {
     "singkatan": "S.Si.",
     "label_id": "Sarjana Sains",
@@ -287,7 +288,8 @@ const listGelarBelakang = [
     "label_id": "Sarjana Sastra Yunani",
     "label_en": "Bachelor of Greek Literature"
   },
-  // Magister
+
+  /// Magister
   {
     "singkatan": "M.Si.",
     "label_id": "Magister Sains",
@@ -533,27 +535,28 @@ const listGelarBelakang = [
     "label_id": "Magister Sastra Yunani",
     "label_en": "Master of Greek Literature"
   },
-  // Doktor
-  // {
-  //   "singkatan": "Dr.S.",
-  //   "label_id": "Doktor Sains",
-  //   "label_en": "Doctor of Science"
-  // },
-  // {
-  //   "singkatan": "Dr.T.",
-  //   "label_id": "Doktor Teknik",
-  //   "label_en": "Doctor of Science"
-  // },
-  // {
-  //   "singkatan": "Dr.H.",
-  //   "label_id": "Doktor Hukum",
-  //   "label_en": "Doctor of Laws"
-  // },
-  // {
-  //   "singkatan": "Dr.E.",
-  //   "label_id": "Doktor Ekonomi",
-  //   "label_en": "Doctor of Economics"
-  // },
+
+  /// Doktor
+  /// {
+  ///   "singkatan": "Dr.S.",
+  ///   "label_id": "Doktor Sains",
+  ///   "label_en": "Doctor of Science"
+  /// },
+  /// {
+  ///   "singkatan": "Dr.T.",
+  ///   "label_id": "Doktor Teknik",
+  ///   "label_en": "Doctor of Science"
+  /// },
+  /// {
+  ///   "singkatan": "Dr.H.",
+  ///   "label_id": "Doktor Hukum",
+  ///   "label_en": "Doctor of Laws"
+  /// },
+  /// {
+  ///   "singkatan": "Dr.E.",
+  ///   "label_id": "Doktor Ekonomi",
+  ///   "label_en": "Doctor of Economics"
+  /// },
 ];
 
 const listGelarDepan = [
