@@ -8,7 +8,6 @@ void main() {
 class FloatLabs extends StatelessWidget {
   const FloatLabs({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     Faker faker = Faker.generate();

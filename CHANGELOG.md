@@ -19,3 +19,13 @@ Added generate academic degree
 | Fixed | Remove unused import ||
 ## 0.0.8+1
 ## 0.0.8+2
+## 0.0.9
+| Type | Title | Description |
+|---|---|---|
+| Added | Religion | Islam, Katolik, Kristen, Hindu, Budha, Konghucu |
+|| Place and date of birth | Adding a function to generate age, and place and date of birth data |
+|| Colors | Generate hex and colors name |
+|| Province and City | All provincial and city data in Indonesia for further development |
+| Changed |||
+| Fixed |||
+## 0.0.9+1

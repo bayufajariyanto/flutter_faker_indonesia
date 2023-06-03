@@ -1,8 +1,13 @@
-/// ignore_for_file: file_names
+// ignore_for_file: file_names
+import 'dart:math';
+import "../extension.dart";
 
+import 'package:flutter_faker_indonesia/src/data/alamat/kota.dart';
+import 'package:flutter_faker_indonesia/src/data/personal/agama.dart';
 import 'package:flutter_faker_indonesia/src/data/personal/gelar.dart';
 import 'package:flutter_faker_indonesia/src/data/personal/nama.dart';
 import 'package:flutter_faker_indonesia/src/generator.dart';
+import 'package:intl/intl.dart';
 
 class Personal {
   Generator generator = Generator();
@@ -88,5 +93,71 @@ class Personal {
     }
     String result = gelarExplode.join(", ");
     return result;
+  }
+
+  agama() {
+    return generator.index(listAgama);
+  }
+
+  /// Tempat Tanggal Lahir
+  ///
+  /// Ex: Pasuruan, 30 Agustus 1999
+  ///
+  /// Dokumentasi format:
+  /// https://api.dart.dev/stable/1.10.1/dart-core/DateTime/toIso8601String.html
+  ttl({String format = "dd/MM/yyyy"}) {
+    String tempatLahir =
+        generator.index(listKota)["nama"].toLowerCase().toString();
+    tempatLahir = tempatLahir.capitalEachWord();
+
+    /// Remove Kab. dan Kota
+    var splitKab = tempatLahir.split("Kab. ");
+    var joinSplitKab = splitKab.join("");
+    var splitKota = joinSplitKab.split("Kota ");
+    var joinSplitKota = splitKota.join("");
+
+    /// Random range usia
+    int minUsia = 18;
+    int maxUsia = 65;
+
+    Random rnd = Random();
+    var usia = minUsia + rnd.nextInt(maxUsia - minUsia);
+
+    var today = DateTime.now();
+
+    /// Tanggal lahir
+    var bornDate = DateTime(today.year - usia, today.month, today.day,
+        today.hour, today.minute, today.second);
+
+    /// Tanggal lahir di usia 18 tahun (Usia minimal)
+    var minDate = DateTime(today.year - minUsia, today.month, today.day,
+        today.hour, today.minute, today.second);
+
+    var bornDateFormat = DateFormat("yyyy-MM-dd").format(bornDate);
+    var minDateFormat = DateFormat("yyyy-MM-dd").format(minDate);
+
+    /// Timestamp dari tanggal lahir -> lebih kecil dari minTime
+    DateTime sdate = DateTime.parse(bornDateFormat);
+    int bornTime = sdate.millisecondsSinceEpoch;
+
+    /// Timestamp dari tanggal lahir usia minimal -> lebih besar dari bornTime
+    DateTime sdate2 = DateTime.parse(minDateFormat);
+    int minTime = sdate2.millisecondsSinceEpoch;
+
+    /// Generate timestamp acak range bornTime sampai minTime
+    double rndTimestamp = bornTime + rnd.nextDouble() * (minTime - bornTime);
+    int rndTimestampInt = rndTimestamp.toInt();
+
+    DateTime tsdate = DateTime.fromMillisecondsSinceEpoch(rndTimestampInt);
+    String bornDateResult = DateFormat(format).format(tsdate);
+
+    String bornDateIndonesia = bornDateResult.bulanIndonesia();
+
+    return {
+      "usia": usia,
+      "tempat_lahir": joinSplitKota,
+      "tanggal_lahir": bornDateIndonesia,
+      "label": "$joinSplitKota, $bornDateIndonesia"
+    };
   }
 }
