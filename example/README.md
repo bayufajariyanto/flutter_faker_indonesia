@@ -82,7 +82,7 @@ Functions in this class:
   	- `String format = "dd/MM/yyyy"`    (optional) Ex: `child = true` -> "Laki-laki", but if `child = false` -> "Pria"
 - NPWP()
 - nomorTelepon()
-	- `bool kodeNegara = "62"` (optional)
+	- `String kodeNegara = "62"` (optional)
 
 ```dart
     faker.personal.namaLengkap();
