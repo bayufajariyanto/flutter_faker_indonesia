@@ -2,7 +2,7 @@ name: flutter_faker_indonesia
 description: 
   Faker is a Dart library that generates fake data.
   It can be used to generate realistic data for testing, development, and prototyping.
-version: 0.0.9+1
+version: 1.0.0
 homepage: https://github.com/bayufajariyanto/flutter_faker_indonesia
 
 environment:
@@ -14,6 +14,7 @@ dependencies:
   flutter:
     sdk: flutter
   intl: ^0.18.1
+  uuid: ^3.0.7
 
 dev_dependencies:
   flutter_test:

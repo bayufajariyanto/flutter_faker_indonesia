@@ -1,8 +1,8 @@
-// ignore_for_file: file_names
+// ignore_for_file: file_names, non_constant_identifier_names
 import 'dart:math';
 import "../extension.dart";
 
-import 'package:flutter_faker_indonesia/src/data/alamat/kota.dart';
+import 'package:flutter_faker_indonesia/src/data/lokasi/kota.dart';
 import 'package:flutter_faker_indonesia/src/data/personal/agama.dart';
 import 'package:flutter_faker_indonesia/src/data/personal/gelar.dart';
 import 'package:flutter_faker_indonesia/src/data/personal/nama.dart';
@@ -159,5 +159,57 @@ class Personal {
       "tanggal_lahir": bornDateIndonesia,
       "label": "$joinSplitKota, $bornDateIndonesia"
     };
+  }
+
+  String NPWP() {
+    /// Format NPWP: 12.345.678.9-012.345
+
+    String npwpNumber = '';
+
+    /// Generate digit pertama - ke7
+    for (int i = 0; i < 7; i++) {
+      npwpNumber += (Random().nextInt(9) + 1).toString();
+    }
+
+    npwpNumber += '.';
+
+    /// Generate digit ke8 - 17
+    for (int i = 0; i < 10; i++) {
+      npwpNumber += (Random().nextInt(10)).toString();
+    }
+
+    npwpNumber += '-';
+
+    /// Generate digit verifikasi NPWP
+    npwpNumber += (Random().nextInt(9) + 1).toString();
+
+    npwpNumber += '.';
+
+    /// Generate blok kantor cabang NPWP
+    for (int i = 0; i < 4; i++) {
+      npwpNumber += (Random().nextInt(10)).toString();
+    }
+
+    npwpNumber += '.';
+
+    /// Generate digit verifikasi blok kantor cabang
+    npwpNumber += (Random().nextInt(9) + 1).toString();
+
+    return npwpNumber;
+  }
+
+  String nomorTelepon({kodeNegara = "62"}) {
+    Random random = Random();
+
+    /// Menghasilkan 1- digit angka acak sebagai nomor telepon
+    String phoneNumber = '';
+    for (int i = 0; i < 10; i++) {
+      phoneNumber += random.nextInt(10).toString();
+    }
+
+    /// Menggabungkan country code dan nomor telepon
+    String randomPhoneNumber = "+$kodeNegara" + "8$phoneNumber";
+
+    return randomPhoneNumber;
   }
 }

@@ -10,7 +10,7 @@ class Pekerjaan {
   /// 1. lengkap
   /// 2. badan usaha
   /// 3. belakang
-  namaPerusahaan({String mode = "lengkap"}) {
+  perusahaan({String mode = "lengkap"}) {
     var result = "";
     switch (mode) {
       case "lengkap":

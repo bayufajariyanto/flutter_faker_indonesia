@@ -29,3 +29,16 @@ Added generate academic degree
 | Changed |||
 | Fixed |||
 ## 0.0.9+1
+## 1.0.0
+- Updated documentation.
+- Added several new functions, including:
+    - Animal function
+    - Latitude function
+    - Longitude function
+    - Province function
+    - City function
+    - Nominal function
+    - Topic-specific description function
+    - UUID function
+- Renamed the function namaPerusahaan to perusahaan.
+- Modified the response for generating descriptions.

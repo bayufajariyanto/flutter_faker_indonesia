@@ -19,6 +19,9 @@ main() {
 }
 ```
 
+## Documentation
+Explore the fascinating [Documentation][documentation] to unveil the array of functions employed by this remarkable library.
+
 ## Contribution
 We welcome contributions from the community to improve and expand this library. If you would like to contribute, please follow the steps below:
 
@@ -44,6 +47,7 @@ Distributed under the MIT License. See [LICENSE][license] for more information.
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
+[documentation]: https://github.com/bayufajariyanto/flutter_faker_indonesia/blob/main/example/README.md
 [tracker]: https://github.com/bayufajariyanto/flutter_faker_indonesia/issues
 [contributing]: https://github.com/bayufajariyanto/flutter_faker_indonesia/blob/main/CONTRIBUTING.md
 [license]: https://pub.dev/packages/flutter_faker_indonesia/license
