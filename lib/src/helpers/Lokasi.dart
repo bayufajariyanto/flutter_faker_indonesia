@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'dart:math';
 
 import 'package:flutter_faker_indonesia/src/data/lokasi/kota.dart';

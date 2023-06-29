@@ -208,7 +208,7 @@ class Personal {
     }
 
     /// Menggabungkan country code dan nomor telepon
-    String randomPhoneNumber = "+$kodeNegara" + "8$phoneNumber";
+    String randomPhoneNumber = "+$kodeNegara" "8$phoneNumber";
 
     return randomPhoneNumber;
   }

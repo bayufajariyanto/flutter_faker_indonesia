@@ -93,7 +93,7 @@ extension StringExtension on String {
         }
       });
     } catch (e) {
-      print(e);
+      // print(e);
     }
 
     if (bulanIndo != "") {
