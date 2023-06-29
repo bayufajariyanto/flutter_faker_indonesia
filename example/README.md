@@ -55,7 +55,7 @@ Functions in this class:
 - jabatan()
 
 ```dart
-    faker.pekerjaan.namaPerusahaan()
+    faker.pekerjaan.perusahaan()
     /// PT Venturo Pro Indonesia
 
     faker.pekerjaan.jabatan()
