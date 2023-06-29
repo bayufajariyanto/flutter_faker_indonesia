@@ -1,6 +1,6 @@
-## Documentation
+# Documentation
 
-### Binatang
+## Binatang
 
 Functions in this class:
 - nama()
@@ -10,7 +10,7 @@ Functions in this class:
     /// Anjing
 ```
 
-### Lokasi
+## Lokasi
 
 Functions in this class:
 - latitude()
@@ -32,7 +32,7 @@ Functions in this class:
     /// KOTA MALANG
 ```
 
-### Mata Uang
+## Mata Uang
 
 Functions in this class:
 - nominal()
@@ -44,7 +44,7 @@ Functions in this class:
     /// Rp14.110
 ```
 
-### Pekerjaan
+## Pekerjaan
 
 Functions in this class:
 - perusahaan()
@@ -62,7 +62,7 @@ Functions in this class:
     /// Quality Assurance
 ```
 
-### Personal
+## Personal
 
 Functions in this class:
 - namaLengkap()
@@ -116,7 +116,7 @@ Functions in this class:
 	/// +6289045361586
 ```
 
-### Random
+## Random
 
 Functions in this class:
 - deskripsi()
@@ -142,7 +142,7 @@ Functions in this class:
     /// 35abb75c-80d0-4b7e-b18a-5b0d161997f5
 ```
 
-### Warna
+## Warna
 
 Functions in this class:
 - hex()
