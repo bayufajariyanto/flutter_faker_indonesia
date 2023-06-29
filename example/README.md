@@ -48,7 +48,7 @@ Functions in this class:
 
 Functions in this class:
 - perusahaan()
-	- `int mode = "lengkap"` (optional)
+	- `String mode = "lengkap"` (optional)
 		- "lengkap"     Ex: PT Venturo Pro Indonesia, PT Suparma Tbk.
 		- "badan usaha" Ex: CV, Fa, PD, PN, PO, PT, UD, Koperasi
 		- "belakang"    Ex: Corp., Inc., Ltd., Tbk., (Persero), (Persero) Tbk.
