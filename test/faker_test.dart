@@ -1,4 +1,4 @@
-// ignore_for_file: avoid_print
+/// ignore_for_file: avoid_print
 import 'package:flutter_faker_indonesia/faker.dart';
 
 void main() {

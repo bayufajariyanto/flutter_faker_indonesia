@@ -1,4 +1,4 @@
-// ignore_for_file: file_names, unnecessary_brace_in_string_interps
+/// ignore_for_file: file_names, unnecessary_brace_in_string_interps
 import 'package:flutter_faker_indonesia/src/data/pekerjaan/jabatan.dart';
 import 'package:flutter_faker_indonesia/src/data/pekerjaan/perusahaan.dart';
 import 'package:flutter_faker_indonesia/src/generator.dart';

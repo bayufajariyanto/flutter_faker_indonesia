@@ -1,4 +1,4 @@
-// ignore_for_file: file_names, unnecessary_brace_in_string_interps
+/// ignore_for_file: file_names, unnecessary_brace_in_string_interps
 import 'dart:math';
 
 import 'package:flutter_faker_indonesia/src/generator.dart';
