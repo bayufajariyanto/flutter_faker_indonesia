@@ -109,11 +109,11 @@ Functions in this class:
     faker.personal.ttl();
     /// {usia: 23, tempat_lahir: Malang, tanggal_lahir: 09 Februari 2000, label: Malang, 09 Februari 2000}
 
-    faker.personal.NPWP();
-	/// 7859789.3809852358-7.1353.5
-
     faker.personal.nomorTelepon();
-	/// +6289045361586
+    /// +6289045361586
+
+    faker.personal.NPWP();
+    /// 7859789.3809852358-7.1353.5
 ```
 
 ## Random
@@ -121,17 +121,17 @@ Functions in this class:
 Functions in this class:
 - deskripsi()
 	- `String topik` (optional)
-		- "acara"       Ex: Festival Kreativitas adalah ajang untuk merayakan keberagaman....
-		- "film"        Ex: Dalam perjalanan yang penuh tantangan, penjelajah....
-		- "layanan"     Ex: Jasa Katering Eksklusif kami hadir untuk....
-		- "makanan"     Ex: Daging sapi yang dipilih dengan teliti....
-		- "minuman"     Ex: Minuman ini dapat dinikmati dalam berbagai....
-		- "musik"       Ex: Melodi yang indah dan harmonis meluncurkan....
-		- "produk"      Ex: Piknik Backpack adalah ransel yang dirancang....
-		- "pariwisata"  Ex: Nikmati sensasi menyelam di bawah air....
-		- "perusahaan"  Ex: Kami memiliki tim yang terdiri dari....
-		- "properti"    Ex: Villa ini memiliki ruang tamu yang....
-		- "smartphpone" Ex: Selamat datang di dunia canggih dari....
+		- "acara"
+		- "film"
+		- "layanan"
+		- "makanan"
+		- "minuman"
+		- "musik"
+		- "produk"
+		- "pariwisata"
+		- "perusahaan"
+		- "properti"
+		- "smartphpone
 - uuid()
 
 ```dart
