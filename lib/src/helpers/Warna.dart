@@ -6,6 +6,7 @@ import 'package:flutter_faker_indonesia/src/data/warna/warna.dart';
 import 'package:flutter_faker_indonesia/src/generator.dart';
 
 class Warna {
+  /// Genreate warna
   String hex() {
     Random random = Random();
 
@@ -25,6 +26,7 @@ class Warna {
     return hexColor.toUpperCase();
   }
 
+  /// Generate daftar warna
   String nama() {
     return Generator().index(listWarna);
   }

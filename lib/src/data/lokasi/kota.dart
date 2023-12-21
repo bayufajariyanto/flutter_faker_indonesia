@@ -1,3 +1,4 @@
+/// Daftar kota
 const listKota = [
   /// Provinsi ACEH
   {"id": "1101", "nama": "KAB. ACEH SELATAN"},

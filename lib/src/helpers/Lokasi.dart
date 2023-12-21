@@ -9,6 +9,7 @@ import 'package:flutter_faker_indonesia/src/generator.dart';
 class Lokasi {
   Generator generator = Generator();
 
+  /// Generate latitude
   double latitude() {
     Random random = Random();
     double minLatitude = -90;
@@ -18,6 +19,7 @@ class Lokasi {
     return latitude;
   }
 
+  /// Generate longitude
   double longitude() {
     Random random = Random();
     double minLongitude = -180;
@@ -27,11 +29,13 @@ class Lokasi {
     return longitude;
   }
 
+  /// Generate daftar provinsi
   provinsi() {
     var provinsi = generator.index(listProvinsi);
     return provinsi["nama"];
   }
 
+  /// Generate daftar kota
   kota() {
     var kota = generator.index(listKota);
     return kota["nama"];

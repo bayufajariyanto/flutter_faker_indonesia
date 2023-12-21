@@ -1,3 +1,4 @@
+/// Daftar binatang
 const listBinatang = [
   "Angsa",
   "Anjing",

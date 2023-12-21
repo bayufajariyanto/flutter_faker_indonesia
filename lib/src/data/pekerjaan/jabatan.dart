@@ -1,3 +1,4 @@
+/// Daftar jabatan
 const listJabatan = [
   "Account Executive",
   "Account Manager",

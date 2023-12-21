@@ -1,3 +1,4 @@
+/// Daftar nama perusahaan
 const listNamaPerusahaan = [
   {
     "nama_depan": "PT",
@@ -654,6 +655,7 @@ const listNamaPerusahaan = [
   /// Akhir Perusahaan BUMN
 ];
 
+/// Daftar nama depan perusahaan
 const listNamaDepanPerusahaan = [
   "CV",
   "Fa",
@@ -665,6 +667,7 @@ const listNamaDepanPerusahaan = [
   "Koperasi",
 ];
 
+/// Daftar nama belakang perusahaan
 const listNamaBelakangPerusahaan = [
   "Corp.",
   "Inc.",

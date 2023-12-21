@@ -1,10 +1,12 @@
 /// ignore_for_file: file_names, non_constant_identifier_names
 import 'dart:math';
+
 import "../extension.dart";
 
 import 'package:flutter_faker_indonesia/src/data/lokasi/kota.dart';
 import 'package:flutter_faker_indonesia/src/data/personal/agama.dart';
 import 'package:flutter_faker_indonesia/src/data/personal/gelar.dart';
+import 'package:flutter_faker_indonesia/src/data/personal/hobi.dart';
 import 'package:flutter_faker_indonesia/src/data/personal/nama.dart';
 import 'package:flutter_faker_indonesia/src/generator.dart';
 import 'package:intl/intl.dart';
@@ -95,6 +97,7 @@ class Personal {
     return result;
   }
 
+  /// Daftar Agama
   agama() {
     return generator.index(listAgama);
   }
@@ -211,5 +214,10 @@ class Personal {
     String randomPhoneNumber = "+$kodeNegara" "8$phoneNumber";
 
     return randomPhoneNumber;
+  }
+
+  /// Daftar Agama
+  hobi() {
+    return generator.index(listHobi);
   }
 }

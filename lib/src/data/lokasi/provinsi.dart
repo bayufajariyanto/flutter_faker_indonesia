@@ -1,3 +1,4 @@
+/// Daftar provinsi
 const listProvinsi = [
   {"id": "11", "nama": "ACEH"},
   {"id": "12", "nama": "SUMATERA UTARA"},

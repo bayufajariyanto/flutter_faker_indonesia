@@ -52,6 +52,7 @@ class Pekerjaan {
     return result;
   }
 
+  /// Generate daftar jabatan
   jabatan() {
     return generator.index(listJabatan);
   }

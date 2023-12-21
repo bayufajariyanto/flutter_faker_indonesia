@@ -35,6 +35,7 @@ void main() {
   print({"gelar belakang": faker.personal.gelarBelakang(length: 2)});
   print({"NPWP": faker.personal.NPWP()});
   print({"No. Telp": faker.personal.nomorTelepon()});
+  print({"hobi": faker.personal.hobi()});
 
   /// Random
   print({"deskripsi": faker.random.deskripsi()});
@@ -43,6 +44,9 @@ void main() {
   /// Warna
   print({"warna": faker.warna.nama()});
   print({"hex": faker.warna.hex()});
+
+  /// Generate waktu
+  print({"waktu": faker.waktu.timeAgo()});
 
   stopwatch.stop();
   print('Waktu runtime: ${stopwatch.elapsedMilliseconds} ms');

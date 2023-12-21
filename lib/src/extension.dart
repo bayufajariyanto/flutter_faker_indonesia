@@ -1,10 +1,12 @@
 // ignore_for_file: unnecessary_this, unnecessary_null_comparison
 
 extension StringExtension on String {
+  /// Generate teks menjadi uppercase
   String capitalize() {
     return "${this[0].toUpperCase()}${this.substring(1).toLowerCase()}";
   }
 
+  /// Generate teks menjadi kapital pada setiap kata
   String capitalEachWord() {
     if (this == null) {
       return "";
@@ -32,6 +34,7 @@ extension StringExtension on String {
     return capitalizedWords.join(' ');
   }
 
+  /// Generate bulan dalam bahasa Indonesia
   String bulanIndonesia() {
     var short = {
       "jan": "Jan",

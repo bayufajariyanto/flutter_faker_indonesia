@@ -1,3 +1,4 @@
+/// Daftar nama awal
 const listNamaAwal = [
   "Adi",
   "Aditya",
@@ -92,6 +93,7 @@ const listNamaAwal = [
   "Zidan",
 ];
 
+/// Daftar nama akhir
 const listNamaAkhir = [
   "Abdullah",
   "Abidin",
@@ -394,6 +396,7 @@ const listNamaAkhir = [
   "Yusuf",
 ];
 
+/// Daftar nama tambahan
 const listNamaTambahan = [
   "Adi",
   "Ahmad",

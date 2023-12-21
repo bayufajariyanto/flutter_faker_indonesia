@@ -6,6 +6,7 @@ import 'package:flutter_faker_indonesia/src/helpers/MataUang.dart';
 import 'package:flutter_faker_indonesia/src/helpers/Pekerjaan.dart';
 import 'package:flutter_faker_indonesia/src/helpers/Personal.dart';
 import 'package:flutter_faker_indonesia/src/helpers/Random.dart';
+import 'package:flutter_faker_indonesia/src/helpers/Waktu.dart';
 import 'package:flutter_faker_indonesia/src/helpers/Warna.dart';
 
 class Faker {
@@ -16,6 +17,7 @@ class Faker {
   final AutoRandom random;
   final MataUang mataUang;
   final Lokasi lokasi;
+  final Waktu waktu;
 
   Faker.generate()
       : pekerjaan = Pekerjaan(),
@@ -24,5 +26,6 @@ class Faker {
         warna = Warna(),
         random = AutoRandom(),
         mataUang = MataUang(),
-        lokasi = Lokasi();
+        lokasi = Lokasi(),
+        waktu = Waktu();
 }

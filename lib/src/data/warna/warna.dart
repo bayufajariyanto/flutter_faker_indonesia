@@ -1,3 +1,4 @@
+/// Daftar warna
 const listWarna = [
   /// A
   "Abu-abu",

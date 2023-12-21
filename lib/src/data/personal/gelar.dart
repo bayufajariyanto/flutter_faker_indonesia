@@ -1,3 +1,4 @@
+/// Daftar gelar belakang
 const listGelarBelakang = [
   /// Ahli Madya (D3)
   {
@@ -559,6 +560,7 @@ const listGelarBelakang = [
   /// },
 ];
 
+/// Daftar gelar depan
 const listGelarDepan = [
   {"singkatan": "Dr.", "label_id": "Doktor", "label_en": "Doctor", "sex": null},
   {"singkatan": "DR.", "label_id": "Doktor", "label_en": "Doctor", "sex": null},

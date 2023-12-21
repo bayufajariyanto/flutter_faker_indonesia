@@ -7,6 +7,7 @@ class MataUang {
   Generator generator = Generator();
   Random random = Random();
 
+  /// Generate mata uang
   nominal({int min = 10000, int maks = 100000}) {
     var randomNumber = random.nextInt(maks) + min;
 

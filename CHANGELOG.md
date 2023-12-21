@@ -42,3 +42,6 @@ Added generate academic degree
     - UUID function
 - Renamed the function namaPerusahaan to perusahaan.
 - Modified the response for generating descriptions.
+## 1.0.1
+- Added hobi generation function.
+- Added timeAgo generation function.

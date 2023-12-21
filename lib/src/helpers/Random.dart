@@ -5,6 +5,7 @@ import 'package:uuid/uuid.dart';
 import 'dart:math';
 
 class AutoRandom {
+  /// Generate deskripsi
   deskripsi({topik = ""}) {
     Random random = Random();
 
