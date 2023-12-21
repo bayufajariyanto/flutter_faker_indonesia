@@ -55,7 +55,7 @@ Functions in this class:
 - jabatan()
 
 ```dart
-    faker.pekerjaan.namaPerusahaan()
+    faker.pekerjaan.perusahaan()
     /// PT Venturo Pro Indonesia
 
     faker.pekerjaan.jabatan()
@@ -65,6 +65,7 @@ Functions in this class:
 ## Personal
 
 Functions in this class:
+- agama()
 - namaLengkap()
   	- `int length = 2`  (optional) The number of words
 - namaAwal()
@@ -77,7 +78,7 @@ Functions in this class:
   	- `int length = 1`          (optional) The number of words
 - jenisKelamin()
   	- `bool child = false`  (optional) Ex: `child = true` -> "Laki-laki", but if `child = false` -> "Pria"
-- agama()
+- hobi()
 - ttl()
   	- `String format = "dd/MM/yyyy"`    (optional) Ex: `child = true` -> "Laki-laki", but if `child = false` -> "Pria"
 - NPWP()
@@ -140,6 +141,16 @@ Functions in this class:
 
     faker.random.uuid();
     /// 35abb75c-80d0-4b7e-b18a-5b0d161997f5
+```
+
+## Waktu
+
+Functions in this class:
+- timeAgo()
+
+```dart
+    faker.waktu.timeAgo();
+    /// 3 jam yang lalu
 ```
 
 ## Warna

@@ -13,14 +13,23 @@ import 'package:intl/intl.dart';
 
 class Personal {
   Generator generator = Generator();
+
+  /// Daftar agama
+  agama() {
+    return generator.index(listAgama);
+  }
+
+  /// Daftar nama awal
   namaAwal() {
     return generator.index(listNamaAwal);
   }
 
+  /// Daftar nama akhir
   namaAkhir() {
     return generator.index(listNamaAkhir);
   }
 
+  /// Generate nama lengkap
   namaLengkap({int length = 2}) {
     List namaExplode = [];
     namaExplode.add(generator.index(listNamaAwal));
@@ -33,6 +42,7 @@ class Personal {
     return result;
   }
 
+  /// Generate jenis kelamin
   jenisKelamin({bool child = false}) {
     List gender = ["Pria", "Wanita"];
     List genderChild = ["Laki-laki", "Perempuan"];
@@ -45,6 +55,7 @@ class Personal {
     return result;
   }
 
+  /// Generate gelar depan
   gelarDepan({bool? isBoy, bool singkatan = true}) {
     var temp = generator.index(listGelarDepan);
     Map object;
@@ -80,6 +91,7 @@ class Personal {
     return result;
   }
 
+  /// Generate gelar belakang
   gelarBelakang({bool singkatan = true, int length = 1}) {
     var temp = generator.index(listGelarBelakang);
     temp = singkatan ? temp["singkatan"] : temp["label_id"];
@@ -95,11 +107,6 @@ class Personal {
     }
     String result = gelarExplode.join(", ");
     return result;
-  }
-
-  /// Daftar Agama
-  agama() {
-    return generator.index(listAgama);
   }
 
   /// Tempat Tanggal Lahir
@@ -164,6 +171,7 @@ class Personal {
     };
   }
 
+  /// Generate NPWP
   String NPWP() {
     /// Format NPWP: 12.345.678.9-012.345
 
@@ -201,6 +209,7 @@ class Personal {
     return npwpNumber;
   }
 
+  /// Generate nomor telepon
   String nomorTelepon({kodeNegara = "62"}) {
     Random random = Random();
 
@@ -216,7 +225,7 @@ class Personal {
     return randomPhoneNumber;
   }
 
-  /// Daftar Agama
+  /// Daftar Hobi
   hobi() {
     return generator.index(listHobi);
   }
